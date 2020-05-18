@@ -95,6 +95,7 @@ html, body {
 
 
 
+
 header nav .lambda{
     display: flex;
     flex-direction: row;
@@ -155,60 +156,90 @@ header nav .lambda a{
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
 }
 .box2{
     background-color:gold ;
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
 }
 .box3{
     background-color:cadetblue ;
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
 }
 .box4{
     background-color:coral ;
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
 }
 .box5{
     background-color:crimson ;
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
 }
 .box6{
     background-color:forestgreen ;
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
 }
 .box7{
     background-color:darkorchid ;
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
 }
 .box8{
     background-color:hotpink ;
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
 }
 .box9{
     background-color:indigo ;
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
 }
 .box10{
     background-color:dodgerblue ;
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
 }
 
 
@@ -244,25 +275,251 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 
 @media (max-width: 500px){
-    .boxes{
-        justify-content: center;
+    body{
+        font-size: 2rem;
+        margin: 1rem;
+        box-sizing: border-box;
+        display: flex;
         flex-direction: column;
         align-items: center;
-        box-sizing: border-box;
+        justify-content: center;
     }
-
     .container {
-        width: 20%;
         display: flex;
         box-sizing: border-box;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        width: 500px;
+        margin: 0 auto;
     }
 
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
-}
+    .zoom{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        box-sizing: border-box;
+    }
 
+    .zoom img{
+        display: flex;
+        justify-content: center;
+        width: 45%;
+    }
+    header nav .lambda{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    
+    header nav .lambda img{
+        font-size: 2rem;
+        padding: 1rem;
+        color: black;
+    }
+
+    header nav .lambda a{
+        font-size: 2rem;
+        padding: 1rem;
+        color: black;
+    }
+    
+    
+    
+    .top-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+    
+    .top-content .text-container {
+        width: 48%;
+        padding: 0 1%;
+        padding-bottom: 20px;
+        font-size: 2rem;  
+    }
+    
+    .middle-content {
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+    
+    .middle-content h2 {
+        padding: 0 2%;
+        margin-bottom: 0;
+    }
+    
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .box1{
+        background-color:teal ;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .box2{
+        background-color:gold ;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .box3{
+        background-color:cadetblue ;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .box4{
+        background-color:coral ;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .box5{
+        background-color:crimson ;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .box6{
+        background-color:forestgreen ;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .box7{
+        background-color:darkorchid ;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .box8{
+        background-color:hotpink ;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .box9{
+        background-color:indigo ;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .box10{
+        background-color:dodgerblue ;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem;
+        color:white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    
+    
+    .bottom-content {
+        display: flex;
+        margin: 0 2% 20px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .bottom-content .text-container {
+        padding-right: 4%;
+        font-size: 4rem;
+    }
+    
+    .bottom-content .text-container:last-child {
+        padding-right: 0;
+        font-size: 4rem;
+    }
+    
+    footer {
+        width: 100%;
+        background: black;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer nav {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 2%;
+        font-size: 14px;
+    }
+    
+    footer nav a {
+        color: white;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .zoom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .zoom img{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
