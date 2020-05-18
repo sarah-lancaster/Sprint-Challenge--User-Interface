@@ -28,6 +28,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+
 body {
 	line-height: 1;
 }
@@ -47,15 +56,6 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
-}
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -66,10 +66,57 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
+body {
+    box-sizing: border-box;
+    display: flex;
+    padding: 0 25%;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+html, body {
+    display: flex;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container{
+    height:100%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+header nav .lambda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: baseline;
     margin: 0 auto;
 }
+
+header nav .lambda a{
+    font-size: 2rem;
+    padding: 3rem;
+    color: black;
+}
+
+
+
+.zoom{
+    display: flex;
+    justify-content: center;
+}
+
 
 .top-content {
     display: flex;
@@ -99,18 +146,72 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.box1{
+    background-color:teal ;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
 }
+.box2{
+    background-color:gold ;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+.box3{
+    background-color:cadetblue ;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+.box4{
+    background-color:coral ;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+.box5{
+    background-color:crimson ;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+.box6{
+    background-color:forestgreen ;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+.box7{
+    background-color:darkorchid ;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+.box8{
+    background-color:hotpink ;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+.box9{
+    background-color:indigo ;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+.box10{
+    background-color:dodgerblue ;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +245,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+@media (max-width: 500px){
+    .boxes{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 20%;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
