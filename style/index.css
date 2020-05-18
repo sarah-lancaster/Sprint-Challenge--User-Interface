@@ -557,7 +557,7 @@ header nav .lambda a{
     justify-content: center;
     font-size: 1.5rem;
     font-weight: bold;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
@@ -573,7 +573,10 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
