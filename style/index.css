@@ -338,6 +338,7 @@ body {
 
 .container{
     height:100%;
+    width:100%;
     background-color: white;
     margin: 0;
     display: flex;
@@ -375,18 +376,6 @@ header nav .lambda a{
     box-sizing: border-box;
 }
 
-
-.top-content .text-container {
-    padding: 0 1%;
-    padding-bottom: 20px;  
-    margin: 15% 0;
-    font-size: 1.5rem;
-    font-weight: bold;
-    box-sizing: border-box;
-    width: 100%;
-    height: 30rem;
-}
-
 .zoom{
     display: flex;
     justify-content: center;
@@ -409,19 +398,57 @@ header nav .lambda a{
 }
 
 
+.top-content .text-container {
+    display: flex;
+    padding-bottom: 2rem;  
+    margin:3rem 0 0 -7rem;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    width: 150%;
+    height: 25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.top-content .text-container h2{
+    display: flex;
+    font-weight: normal;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.top-content .text-container p{
+    font-weight: normal;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:3rem 0 0 -7rem;
+    width: 150%;
 }
 
-.middle-content h2 {
+.middle-content .why{
     padding: 0 2%;
     margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    width: 150%;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -566,12 +593,17 @@ header nav .lambda a{
     justify-content: center;
     font-size: 1.5rem;
     font-weight: bold;
-    flex-direction: row;
+    flex-direction: column;
 
 }
 
 .bottom-content .text-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
 }
+
 
 footer {
     background: black;
