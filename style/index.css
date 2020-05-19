@@ -379,9 +379,12 @@ header nav .lambda a{
 .top-content .text-container {
     padding: 0 1%;
     padding-bottom: 20px;  
-    margin: 5% 0;
+    margin: 15% 0;
     font-size: 1.5rem;
     font-weight: bold;
+    box-sizing: border-box;
+    width: 100%;
+    height: 30rem;
 }
 
 .zoom{
@@ -397,7 +400,12 @@ header nav .lambda a{
 .zoom img{
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
     margin: 0 20%;
+    width: 200%;
+    height: 10rem;
 }
 
 
